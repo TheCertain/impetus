@@ -71,6 +71,11 @@
 			multiplier = val;
 			stopThreshold = stopThresholdDefault * multiplier;
 		};
+
+		this.setBoundsX = function(min, max) {
+			boundXmin = min;
+			boundXmax = max;
+		};
 		
 		/**
 		 * Executes the update function
